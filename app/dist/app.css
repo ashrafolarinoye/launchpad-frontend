@@ -547,6 +547,7 @@ form button {
   font-family: "Font Awesome 5 Pro";
   font-size: 18px;
   color: #000000;
+  background-color: #f2a105;
   font-weight: 600;
 }
 
@@ -2119,7 +2120,7 @@ form button {
   color: #fff;
 }
 .tf-token .desc-token .total-token p span {
-  color: #86FF00;
+  color: #f2a105;
 }
 .tf-token .desc-token .total-token p:last-child {
   margin-bottom: 0;
@@ -2675,7 +2676,7 @@ form button {
   color: #798DA3;
 }
 .project-info-form.form-login .title a:hover {
-  color: #86FF00;
+  color: #f2a105;
 }
 .project-info-form.form-login .title.link {
   margin-bottom: 0 !important;
@@ -2766,7 +2767,7 @@ form button {
   text-align: center;
 }
 .forget-form.project-info-form .bottom a {
-  color: #86FF00;
+  color: #f2a105;
 }
 
 .checkbox {
@@ -2931,7 +2932,7 @@ form button {
 }
 
 .color-hover {
-  color: #86FF00;
+  color: #f2a105;
 }
 
 .ml0 {
@@ -3080,7 +3081,8 @@ form button {
   padding: 8px 10px;
   height: 40px;
   width: 90px;
-  background: url("../../assets/images/common/bg_text2.png");
+  background-color: #f2a105;
+  border-radius: 10px;
   background-position: center left;
   background-repeat: no-repeat;
   color: #000000;
@@ -3117,7 +3119,7 @@ form button {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #86FF00;
+  background-color: #f2a105;
   right: -2.5px;
   bottom: -2.5px;
 }
@@ -3383,7 +3385,7 @@ form button {
 .project-box-style5 .content-inner .total p {
   font-family: "resobot-bold";
   font-weight: 700;
-  color: #86FF00;
+  color: #f2a105;
   font-size: 24px;
   line-height: 1.4;
   margin-bottom: 0;
@@ -3460,7 +3462,7 @@ form button {
 }
 .counter_wrapper .box .content .number-content span {
   font-family: "resobot-bold";
-  color: #86FF00;
+  color: #f2a105;
   font-weight: bold;
   font-size: 40px;
   line-height: 44px;
@@ -3620,8 +3622,8 @@ form button {
   transition: all 0.3s ease;
 }
 .social li a:hover {
-  background-color: #86FF00;
-  border-color: #86FF00;
+  background-color: #f2a105;
+  border-color: #f2a105;
 }
 .social li a:hover svg path {
   fill: #09121D;
@@ -3907,7 +3909,7 @@ form button {
 }
 .image-box .content .name {
   font-size: 20px;
-  color: #86FF00;
+  color: #f2a105;
   margin-bottom: 17px;
 }
 .image-box .content ul li {
@@ -3925,7 +3927,7 @@ form button {
   margin-bottom: 0;
 }
 .image-box .content ul li p.price {
-  color: #86FF00;
+  color: #f2a105;
   font-size: 17px;
   line-height: 1.4;
 }
@@ -3952,7 +3954,7 @@ form button {
 }
 .roadmap_boder::before {
   left: -300px;
-  background-color: #86FF00;
+  background-color: #f2a105;
   opacity: 1;
 }
 .roadmap_boder::after {
@@ -3988,14 +3990,14 @@ form button {
   top: 10px;
 }
 .roadmap-box.active .date {
-  color: #86FF00;
+  color: #f2a105;
 }
 .roadmap-box.active::before {
-  background-color: #86FF00;
+  background-color: #f2a105;
   opacity: 1;
 }
 .roadmap-box.active .icon {
-  background-color: #86FF00;
+  background-color: #f2a105;
 }
 .roadmap-box::before {
   content: "";
@@ -4131,7 +4133,7 @@ form button {
 .project-box-style6 .content-bottom .total p {
   font-family: "resobot-bold";
   font-weight: 700;
-  color: #86FF00;
+  color: #f2a105;
   font-size: 24px;
   line-height: 1.4;
   margin-bottom: 0;
@@ -4240,7 +4242,7 @@ form button {
 }
 .project-box-style7 .content ul li p:nth-child(2) {
   width: 42%;
-  color: #86FF00;
+  color: #f2a105;
 }
 .project-box-style7 .content .title {
   margin-bottom: 6px;
@@ -4419,10 +4421,10 @@ form button {
   margin-bottom: 0;
 }
 .icon-box-style4:hover .icon-wrapper svg path {
-  fill: #86FF00;
+  fill: #f2a105;
 }
 .icon-box-style4:hover h6 {
-  color: #86FF00;
+  color: #f2a105;
 }
 
 .wrapper-menutab {
@@ -4772,17 +4774,17 @@ form button {
   top: 10px;
 }
 .roadmap-wrapper-style2 .roadmap-box-style.active .date {
-  color: #86FF00;
+  color: #f2a105;
 }
 .roadmap-wrapper-style2 .roadmap-box-style.active::before {
-  background-color: #86FF00;
+  background-color: #f2a105;
   opacity: 1;
 }
 .roadmap-wrapper-style2 .roadmap-box-style.active .icon {
-  background-color: #86FF00;
+  background-color: #f2a105;
 }
 .roadmap-wrapper-style2 .roadmap-box-style.active .content::after {
-  background-color: #86FF00;
+  background-color: #f2a105;
 }
 .roadmap-wrapper-style2 .roadmap-box-style::before {
   content: "";
@@ -4879,7 +4881,7 @@ form button {
   border-top: 0;
 }
 .grid-box .content .tag {
-  color: #86FF00;
+  color: #f2a105;
   font-size: 12px;
   font-weight: bold;
   font-family: "resobot-bold";
