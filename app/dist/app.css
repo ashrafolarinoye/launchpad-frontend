@@ -845,11 +845,11 @@ form button {
   color: #fff;
 }
 .tf-button.style1:hover {
-  background: #86FF00;
+  background: #f2a105;
   color: #000000;
 }
 .tf-button.style2 {
-  background: #86FF00;
+  background: #f2a105;
   color: #000000;
 }
 .tf-button.style2:hover {
@@ -857,7 +857,7 @@ form button {
   color: #fff;
 }
 .tf-button.style3 {
-  background: #86FF00;
+  background: #f2a105;
   color: #000000;
   height: 60px;
   font-size: 16px;
@@ -898,7 +898,7 @@ form button {
   margin-right: 8px;
 }
 .breadcrumbs ul li span {
-  color: #86FF00;
+  color: #f2a105;
 }
 
 .tf-title {
@@ -1373,7 +1373,7 @@ form button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #86FF00;
+  background-color: #f2a105;
   border-radius: 6px;
   margin-bottom: 20px;
 }
@@ -1416,7 +1416,7 @@ form button {
   margin-bottom: 10px;
 }
 .featured-countdown.style2 .countdown__item {
-  color: #86FF00;
+  color: #f2a105;
 }
 .featured-countdown.style2 .desc li {
   color: #798DA3;
@@ -1487,7 +1487,7 @@ form button {
   margin-bottom: 0;
 }
 .total_token h6 span {
-  color: #86FF00;
+  color: #f2a105;
 }
 
 .content_technology {
