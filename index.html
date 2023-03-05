@@ -17,13 +17,6 @@
     <script src="../../code.highcharts.com/highcharts.html"></script>
 </head>
 <body class="header-fixed main home1 counter-scroll">
-        <!-- preloader -->
-        <div class="preloader">
-            <div class="clear-loading loading-effect-2">
-            <span></span>
-            </div>
-        </div>
-        <!-- /preload -->
     <div id="wrapper">
         <!-- Header -->
     <header id="header_main" class="header">
@@ -34,29 +27,21 @@
                 </div>
                 <nav id="main-nav" class="main-nav">
                     <ul id="menu-primary-menu" class="menu">
-                        <li class="menu-item menu-item-has-children  current-menu-item">
+                        <li class="menu-item">
                             <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item current-item"><a href="index-2.html">Home 1</a></li>
-                                <li class="menu-item"><a href="home-02.html">Home 2</a></li>
-                                <li class="menu-item"><a href="home-03.html">Home 3</a></li>
-                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="project-grid.html">Projects</a>
+                        </li>
+                        <li class="menu-item ">
+                            <a href="roadmap.html">Roadmap</a> 
+                        </li> 
+                       
+                        <li class="menu-item ">
+                            <a href="contact.html">Contact</a> 
                         </li>
                         <li class="menu-item menu-item-has-children">
-                            <a href="#">Project</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="project-grid.html">Project 01</a></li>
-                                <li class="menu-item"><a href="project-grid-2.html">Project 02</a></li>
-                                <li class="menu-item"><a href="project-grid-3.html">Project 03</a></li>
-                                <li class="menu-item"><a href="project-grid-4.html">Project 04</a></li>
-                                <li class="menu-item"><a href="project-grid-5.html">Project 05</a></li>
-                                <li class="menu-item"><a href="project-list.html">Project List</a></li>
-                                <li class="menu-item"><a href="project-details.html">Project Details</a></li>
-                                <li class="menu-item"><a href="submit-project.html">Submit Project</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#">Page</a>
+                            <a href="#">Other</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="token.html">Token</a></li>
                                 <li class="menu-item"><a href="connect-wallet.html">Connect Wallet</a></li>
@@ -67,21 +52,6 @@
                                 <li class="menu-item"><a href="register.html">Register</a></li>
                                 <li class="menu-item"><a href="forget-password.html">Forget Password</a></li>
                             </ul>
-                        </li>
-                        <li class="menu-item ">
-                            <a href="roadmap.html">Roadmap</a> 
-                        </li> 
-                       
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="blog-grid.html">Blog Grid</a></li>
-                                <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
-                                <li class="menu-item"><a href="blog-details.html">Blog Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item ">
-                            <a href="contact.html">Contact</a> 
                         </li>
                     </ul>
                 </nav><!-- /#main-nav -->
@@ -1840,10 +1810,7 @@
                                 <a href="index-2.html">Home</a>
                             </li>
                             <li>
-                                <a href="project-list.html">Project</a>
-                            </li>
-                            <li>
-                                <a href="blog-grid.html">Blog</a>
+                                <a href="project-list.html">Projects</a>
                             </li>
                             <li>
                                 <a href="team-details.html">Our Team</a>
@@ -1933,7 +1900,8 @@
                     <div class="connect-wallet"> 
                         <ul>
                             <li>
-                                <a href="connect-wallet.html"><img src="assets/images/common/wallet_5.png" alt="">
+                                <a onClick='Connect'
+                                    id='connect' ><img src="assets/images/common/wallet_5.png" alt="">
                                     <span>MetaMask</span>
                                     <span class="icon">
                                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1946,7 +1914,7 @@
                             <li>
                                 <a href="connect-wallet.html">
                                     <img src="assets/images/common/wallet_6.png" alt="">
-                                    <span>Coibase Walet</span>
+                                    <span>Coinbase Wallet</span>
                                     <span class="icon">
                                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.1875 1.375L6.8125 7L1.1875 12.625" stroke="#798DA3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1958,19 +1926,7 @@
                             <li>
                                 <a href="connect-wallet.html">
                                     <img src="assets/images/common/wallet_7.png" alt="">
-                                    <span>WaletConnect</span>
-                                    <span class="icon">
-                                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1.1875 1.375L6.8125 7L1.1875 12.625" stroke="#798DA3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg> 
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="connect-wallet.html">
-                                    <img src="assets/images/common/wallet_8.png" alt="">
-                                    <span>Phantom</span>
+                                    <span>WalletConnect</span>
                                     <span class="icon">
                                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.1875 1.375L6.8125 7L1.1875 12.625" stroke="#798DA3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1983,18 +1939,6 @@
                                 <a href="connect-wallet.html">
                                     <img src="assets/images/common/wallet_9.png" alt="">
                                     <span>Core</span>
-                                    <span class="icon">
-                                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1.1875 1.375L6.8125 7L1.1875 12.625" stroke="#798DA3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg> 
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/common/wallet_10.png" alt="">
-                                    <span>Bitski</span>
                                     <span class="icon">
                                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.1875 1.375L6.8125 7L1.1875 12.625" stroke="#798DA3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -2023,7 +1967,8 @@
      <script src="app/js/count-down.js"></script>
      <script src="app/js/countto.js"></script>
      <script src="app/js/chart.js"></script>
+
+     
 </body>
 
-<!-- Mirrored from themesflat.co/risebothtml/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Mar 2023 13:43:54 GMT -->
 </html>
